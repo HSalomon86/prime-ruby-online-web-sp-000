@@ -13,9 +13,9 @@ def prime?(num)
     if n <= 1
       false
     elsif num == 2
-      false
-    elsif num/n == 0
       true
+    elsif num/n == 0
+      false
     end
   end
 

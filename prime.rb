@@ -1,10 +1,6 @@
 # Add  code here!
 def prime?(num)
-  (2..num).each do |n|
+  return false if n < 2
 
-    if num/n == 0 
-      return false
-    end
-  end
-  true
+  (2..num/2).none?{|i| n % i == 0}
 end

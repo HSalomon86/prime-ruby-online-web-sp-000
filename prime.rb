@@ -12,9 +12,7 @@ if num <= 1
 end
 
   (2..num).each do |n|
-    if n == 2
-      return true
-    elsif num/n == 0
+    if num/n == 0
       false
     end
   end

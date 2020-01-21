@@ -12,9 +12,9 @@ def prime?(num)
   (2..num).each do |n|
     if n <= 1
       false
-    elsif num/n == 0
+    elsif num == 2
       false
-    else
+    elsif num/n == 0
       true
     end
   end

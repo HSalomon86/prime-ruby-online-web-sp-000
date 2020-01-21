@@ -15,9 +15,9 @@ if num == 2
 end
   (2..num).each do |n|
     if num/n == 0
-      false
+      return false
     else
-      true
+      return true
     end
   end
 

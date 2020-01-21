@@ -10,7 +10,7 @@ def prime?(num)
 
 
   (2..num).each do |n|
-    if n <= 1
+    if num <= 1
       return false
     elsif n == 2
       return true
